@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.logo {
+  width: 60vw;
+}
+#header-img {
+  max-width: 100%;
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+#nav-bar {
+  width: 40vw;
+}
+.nav-link {
+  text-decoration: none;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#SearchSection {
+  width: 40%;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#email {
+  width: 60%;
+  height: 30px;
+}
+#submit {
+  margin: 20px;
+  font-weight: bold;
+  background-color: orange;
+  line-height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 2% 0;
+}
+.item img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10%;
+}
+
+#video {
+  max-width: 560px;
+  width: 100%;
+}
+.boxPrice {
+  border: 1px solid black;
+  margin: 20px 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxPrice button {
+  background-color: #f1c40f;
+  border: none;
+  width: 30%;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.boxPrice ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.boxPrice h4 {
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #ddd;
+  line-height: 50px;
+}
+#pricing {
+  display: flex;
+}
+footer {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+footer li {
+  margin: 0 20px;
+}
+footer a {
+  text-decoration: none;
+}
+footer span {
+  margin: 0 10px;
+}
